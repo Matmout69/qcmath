@@ -1,5 +1,5 @@
 # QCM de début de cours de math
-Réalisé dans le cadre du projet tutoré - IUT Lyon 1.
+Réalisé dans le cadre du projet tuteuré - IUT Lyon 1.
 
 ## Outils / Bibliothèques externes
 - (Gestionnaire de dépendance) Composer <https://getcomposer.org>
