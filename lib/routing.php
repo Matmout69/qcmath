@@ -4,16 +4,20 @@
  * PHP version 7
  *
  * @category None
- * @package  None
+ * @package  QCMath
  * @author   mannk <mannk@github.com>
  * @license  MIT <https://opensource.org/licenses/MIT>
  * @link     github.com/mannk/qcmath
  */
 
+namespace QCMath;
+
+use FastRoute;
+
 /**
  * Function name
  *
- * @return nothing
+ * @return Nothing
  */
 function fonctionTest()
 {
@@ -23,14 +27,14 @@ function fonctionTest()
 /**
  * Fonction principale
  *
- * @return nothing
+ * @return Nothing
  */
 function handleRoutes()
 {
     // Ajout des routes
     $dispatcher = FastRoute\simpleDispatcher(
         function (FastRoute\RouteCollector $r) {
-            $r->addRoute('GET', '/test', 'fonctionTest');
+            $r->addRoute('GET', '/test', 'QCMath\fonctionTest');
         }
     );
 
