@@ -1,6 +1,7 @@
 {
     "require": {
         "cartalyst/sentinel": "2.0.*",
-        "nikic/fast-route": "^1.2"
+        "nikic/fast-route": "^1.2",
+        "squizlabs/php_codesniffer": "*"
     }
 }
