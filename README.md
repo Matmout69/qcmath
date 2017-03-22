@@ -5,7 +5,7 @@ Réalisé dans le cadre du projet tuteuré - IUT Lyon 1
 (À adapter en fonction de votre configuration)
 - Installer composer : https://getcomposer.org/doc/00-intro.md (si droits insuffisants, installer en local)
 - (Si sur Windows avec droit insuffisants) récupérer une version de php sans installation : http://windows.php.net/download
-- Installer les dépendances : `php composer.phar install`
+- Installer les dépendances : `php composer.phar install -d "(chemin vers dossier qcmath local)`
 - Lancer un serveur local de test avec php : `$ php -S localhost:8000` (http://php.net/manual/fr/features.commandline.webserver.php)
 
 ## Organisation du code
