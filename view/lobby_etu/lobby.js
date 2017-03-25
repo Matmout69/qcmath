@@ -1,0 +1,9 @@
+$(function(){
+  $('.list-group-item').focus(function(){
+    $('.btrejoindre').removeClass("disabled");
+	   $(this).addClass("active");
+  }).focusout(function(){
+    $('.btrejoindre').addClass("disabled");
+    $(this).removeClass("active");
+  });
+});

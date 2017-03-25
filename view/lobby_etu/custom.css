@@ -1,0 +1,63 @@
+body{
+}
+
+#menu a {
+  color: #337AB7;
+  font-family: 'Lilita One', cursive;
+}
+
+#titreMenu{
+  font-family: 'Lilita One', cursive;
+}
+
+#tabSession{
+  width: 100%;
+}
+
+#tabSession .tab-content {
+  border-radius: 4px;
+  padding : 15px 15px;
+  background-color: #F7F7F7;
+  max-height: 500px;
+  overflow: auto;
+}
+
+#tabSession{
+  text-align: center;
+}
+
+#rejoindre {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#btn-rejoindre{
+  width: 50%;
+  font-size: 150%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+#rejoindre {
+  margin-top: 20px;
+}
+
+#tabSession li{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 50%;
+}
+
+
+#titreMenu{
+  font-size: 200%;
+}
+
+#tabSession .tab-content{
+  max-height: 320px;
+
+}
+
+}
