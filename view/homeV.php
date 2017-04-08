@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
-    <title>QCM de Maths</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="custom.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
   <body>
 
     <div class="container">
@@ -82,15 +49,15 @@
                 </div>
                 <a href="#" class="list-group-item">
                   <div class="row">
-                    <div class="col-xs-4 rowborder">TARTEMPION</div>
-                    <div class="col-xs-3 rowborder">G6S3</div>
+                    <div class="col-xs-4 rowborder">M. LEROUX</div>
+                    <div class="col-xs-3 rowborder">G6S4</div>
                     <div class="col-xs-2 rowborder">210</div>
                     <div class="col-xs-3">4</div>
                   </div>
                 </a>
                 <a href="#" class="list-group-item">
                   <div class="row">
-                    <div class="col-xs-4 rowborder">TARTEMPION</div>
+                    <div class="col-xs-4 rowborder">Mme JOUBERT</div>
                     <div class="col-xs-3 rowborder">G6S3</div>
                     <div class="col-xs-2 rowborder">210</div>
                     <div class="col-xs-3 ">4</div>
@@ -98,8 +65,8 @@
                 </a>
                 <a href="#" class="list-group-item">
                   <div class="row">
-                    <div class="col-xs-4 rowborder">TARTEMPION</div>
-                    <div class="col-xs-3 rowborder">G6S3</div>
+                    <div class="col-xs-4 rowborder">M. JALOUX</div>
+                    <div class="col-xs-3 rowborder">G6S1</div>
                     <div class="col-xs-2 rowborder">210</div>
                     <div class="col-xs-3 ">4</div>
                   </div>
@@ -144,10 +111,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../bootstrap/js/bootstrap.min.js"></script>
-    <script src="lobby.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
   </body>
-</html>

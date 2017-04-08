@@ -1,6 +1,3 @@
-body{
-}
-
 #menu a {
   color: #337AB7;
   font-family: 'Lilita One', cursive;
@@ -34,30 +31,4 @@ body{
 #btn-rejoindre{
   width: 50%;
   font-size: 150%;
-}
-
-
-
-@media screen and (max-width: 768px) {
-
-#rejoindre {
-  margin-top: 20px;
-}
-
-#tabSession li{
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 50%;
-}
-
-
-#titreMenu{
-  font-size: 200%;
-}
-
-#tabSession .tab-content{
-  max-height: 320px;
-
-}
-
 }
