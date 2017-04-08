@@ -4,12 +4,13 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit74a58f0021bb502ad543dfdbd4011934
+class ComposerStaticInit7688624bc5447b7a7612920f73d1ce31
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+        '65fec9ebcfbb3cbb4fd0d519687aea01' => __DIR__ . '/..' . '/danielstjules/stringy/src/Create.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -18,6 +19,7 @@ class ComposerStaticInit74a58f0021bb502ad543dfdbd4011934
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\HttpFoundation\\' => 33,
+            'Stringy\\' => 8,
         ),
         'I' => 
         array (
@@ -47,6 +49,10 @@ class ComposerStaticInit74a58f0021bb502ad543dfdbd4011934
         'Symfony\\Component\\HttpFoundation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
+        ),
+        'Stringy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -95,9 +101,9 @@ class ComposerStaticInit74a58f0021bb502ad543dfdbd4011934
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit74a58f0021bb502ad543dfdbd4011934::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit74a58f0021bb502ad543dfdbd4011934::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit74a58f0021bb502ad543dfdbd4011934::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7688624bc5447b7a7612920f73d1ce31::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7688624bc5447b7a7612920f73d1ce31::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit7688624bc5447b7a7612920f73d1ce31::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
