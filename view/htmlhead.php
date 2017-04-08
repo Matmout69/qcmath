@@ -9,7 +9,10 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Connexion - QCM de Maths</title>
+    <title>Connexion - Questions de maths</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <?php
       // Inclure une feuille de style si nécessaire
@@ -17,9 +20,6 @@
         echo '<link href="'.$reqStylesheet.'" rel="stylesheet">';
       }
     ?>
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
