@@ -16,7 +16,8 @@
         <ul class="nav navbar-nav">
             <li id ="navactif" class="active"><a href="#">Sessions</a></li>
             <li><a href="index.php?page=qcm">QCM</a></li>
-            <li><a href="index.php?page=qcm">Se déconnecter</a></li>
+            <li><a href="index.php?page=qcm">Administration</a></li>
+            <li><a href="index.php?page=logout">Se déconnecter</a></li>
         </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

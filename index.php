@@ -3,6 +3,21 @@
 
 // Charger les dépendances
 require './vendor/autoload.php';
+use Cartalyst\Sentinel\Native\Facades\Sentinel;
+use Illuminate\Database\Capsule\Manager as Capsule;
+
+// Instancier une capsule Eloquent (pour Sentinel)
+$capsule = new Capsule;
+
+// Ajouter la connexion à la BDD SQLite
+$capsule->addConnection(
+    [
+    'driver'    => 'sqlite',
+    'database'  => __DIR__.'/database/production.sqlite',
+    'prefix'    => ''
+    ]
+);
+$capsule->bootEloquent();
 
 // Vérifie si une route est valide
 function checkRoute($route) {
@@ -13,6 +28,9 @@ function checkRoute($route) {
 }
 
 // NOTE: Toute requête envoyée au serveur démarre ici
+
+// Désactiver les checkpoints Sentinel (activation du compte)
+Sentinel::disableCheckpoints();
 
 // Routage vers la page demandée en paramètres de l'URL
 $requestedRoute = $_GET['page'];
