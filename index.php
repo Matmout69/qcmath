@@ -33,11 +33,10 @@ function checkRoute($route) {
 Sentinel::disableCheckpoints();
 
 // Routage vers la page demandée en paramètres de l'URL
-$requestedRoute = $_GET['page'];
-if (isset($requestedRoute)) {
-    if (checkRoute($requestedRoute)) {
+if (isset($_GET['page'])) {
+    if (checkRoute($_GET['page'])) {
         // La route est bonne
-        require 'controller/'.$requestedRoute.'C.php';
+        require 'controller/'.$_GET['page'].'C.php';
     } else {
         // La route n'est pas bonne
         require 'controller/notfoundC.php';
