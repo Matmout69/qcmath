@@ -14,9 +14,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li id ="navactif" class="active"><a href="#">Sessions</a></li>
-            <li><a href="index.php?page=qcm">QCM</a></li>
-            <li><a href="index.php?page=qcm">Administration</a></li>
+            <?php
+            if (isset($_GET['page'])) {
+                $pgname = $_GET['page'];
+            } else { $pgname = '';}
+            ?>
+            <li class="<?php if($pgname == 'home' || $pgname == '') echo 'active'; ?>"><a href="index.php?page=home">Sessions</a></li>
+            <li class="<?php if($pgname == 'qcm') echo 'active'; ?>"><a href="index.php?page=qcm">QCM</a></li>
+            <li class="<?php if($pgname == 'addSession') echo 'active'; ?>"><a href="index.php?page=addSession">Nouvelle session</a></li>
             <li><a href="index.php?page=logout">Se déconnecter</a></li>
         </ul>
         </div><!--/.nav-collapse -->
