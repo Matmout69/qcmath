@@ -8,7 +8,8 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
 
     $reqStylesheet = 'css/general.css';
     $pageName = 'Nouvelle session';
+    $needsMath = false;
     require 'view/htmlhead.php';
     require 'view/navbarV.php';
     require 'view/addSessionV.php';
-    require 'view/htmlfooter.html';
+    require 'view/htmlfooter.php';

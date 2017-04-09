@@ -1,5 +1,6 @@
 <?php
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
+    $needsMath = false;
 
     /*
     echo '<pre>';
@@ -32,4 +33,4 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
     $pageName = 'Connexion';
     require 'view/htmlhead.php';
     require 'view/signinV.php';
-    require 'view/htmlfooter.html';
+    require 'view/htmlfooter.php';
