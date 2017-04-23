@@ -1,5 +1,5 @@
 <?php
-    $reqStylesheet = 'css/general.css';
+    $reqStylesheet = array('css/general.css');
     $pageName = 'Questions';
     $needsMath = true;
     require 'view/htmlhead.php';

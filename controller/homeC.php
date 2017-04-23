@@ -6,7 +6,7 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
         header('Location: index.php?page=signin');
     }
 
-    $reqStylesheet = 'css/general.css';
+    $reqStylesheet = array('css/general.css');
     $pageName = 'Sessions';
     $needsMath = false;
     require 'view/htmlhead.php';

@@ -18,9 +18,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 
     <?php
-      // Inclure une feuille de style si nécessaire
-      if (isset($reqStylesheet)) {
-        echo '<link href="'.$reqStylesheet.'" rel="stylesheet">';
+      // Le contrôleur appelant peut peut définir $reqStylesheets comme un tableau
+      // contenant toutes les feuilles de style à inclure
+      if (isset($reqStylesheets)) {
+          foreach ($reqStylesheets as $ss) {
+              echo '<link href="'.$ss.'" rel="stylesheet">';
+          }
       }
     ?>
 

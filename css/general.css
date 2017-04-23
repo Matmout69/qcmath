@@ -2,6 +2,6 @@
   background-color: white;
 }
 
-p .failed {
+p.failed {
   color: red;
 }

@@ -29,7 +29,7 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
         }
     }
 
-    $reqStylesheet = 'css/signin.css';
+    $reqStylesheets = array('css/signin.css', 'css/general.css');
     $pageName = 'Connexion';
     require 'view/htmlhead.php';
     require 'view/signinV.php';
