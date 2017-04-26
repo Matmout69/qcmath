@@ -1,10 +1,8 @@
 
-  <body>
-
     <div class="container">
 
       <form class="form-signin" action="?page=signin" method="post">
-        <h1 class="form-signin-heading">QCM de maths</h2>
+        <h1 class="form-signin-heading">QCM de maths</h1>
         <h2 class="form-signin-heading">Se connecter</h2>
         
         <label for="inputEmail" class="sr-only">Adresse e-mail</label>

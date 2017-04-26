@@ -1,11 +1,10 @@
 <?php
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
 ?>
-  <h1>Bienvenue !</h1>
+  <h1>Questions de mathématiques</h1>
   <?php
     $user = Sentinel::getUser();
-    echo '<p>Votre identifiant : '.$user['email'].'</p>';
-    echo '<p>Dernière connexion le '.$user['last_login'].'</p>';
+    echo '<p>Utilisateur : '.$user['email'].'</p>';
   ?>
   <h2>Sessions</h2>
   <table class="table table-responsive">
@@ -34,4 +33,3 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
     </tbody>
   </table>
 
-</div>

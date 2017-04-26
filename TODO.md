@@ -1,3 +1,19 @@
 # TODO
-- Page d'ajout d'utilisateurs
-- Page de suppression d'utilisateurs
+- ~~Permettre inclusion multiple de css~~
+- ~~Ajout d'utilisateurs~~
+- ~~Suppression d'utilisateurs~~
+- Ajouter des droits utilisateur
+- Cacher le menu d'admin. aux non admin
+- ~~Schéma relationnel~~
+- ~~Ajouter un QCM~~
+- Ajouter une session
+- Passer une session
+- Jeton de sécurité
+- Vérif. le referer
+- l'AUTOINCREMENT est peut être inutile (cf. site sqlite)
+- virer l'AUTOINCREMENT de Sentinel
+- ~~reconnecter le burger d'administration à la nav adm.~~
+- ~~connecter le label de case à cocher ds création qu~~
+- ~~ajout code bip insertion etu~~
+- insertion etu en vrac ?
+- Support LATEX

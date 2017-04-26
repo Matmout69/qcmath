@@ -10,5 +10,10 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
     $pageName = 'Sessions';
     require 'view/header.php';
     require 'view/navigation.php';
-    require 'view/homeV.php';
+
+    require 'model/sessionsM.php';
+    // Récupérer les sessions
+    $sessions = getSessions();
+    require 'view/sessionsV.php';
+
     require 'view/footer.php';

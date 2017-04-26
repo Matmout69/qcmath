@@ -9,7 +9,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 // Instancier une capsule Eloquent (pour Sentinel)
 $capsule = new Capsule;
 
-// Ajouter la connexion à la BDD SQLite
+// Connecter Sentinel à la BDD
 $capsule->addConnection(
     [
     'driver'    => 'sqlite',
@@ -18,6 +18,12 @@ $capsule->addConnection(
     ]
 );
 $capsule->bootEloquent();
+
+// Se connecter à la BDD
+require('./lib/db.php');
+$db = new DB();
+// Charger les fonctions utilitaires
+require('./lib/util.php');
 
 // Vérifie si une route est valide
 function checkRoute($route) {

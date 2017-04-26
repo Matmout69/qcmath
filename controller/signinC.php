@@ -1,6 +1,5 @@
 <?php
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
-    $needsMath = false;
 
     /*
     echo '<pre>';
@@ -31,6 +30,7 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
 
     $reqStylesheets = array('css/signin.css', 'css/general.css');
     $pageName = 'Connexion';
-    require 'view/htmlhead.php';
+    require 'view/header.php';
     require 'view/signinV.php';
-    require 'view/htmlfooter.php';
+    // On n'appelle pas le footer, on est dans une page spéciale :
+    echo '</body></html>';

@@ -1,7 +1,41 @@
+@font-face {
+  font-family: 'CM';
+  src: url('../fonts/cmunrm.eot');
+  src: url('../fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cmunrm.woff') format('woff'),
+  url('../fonts/cmunrm.ttf') format('truetype'),
+  url('../fonts/cmunrm.svg#cmunrm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
   background-color: white;
 }
 
 p.failed {
   color: red;
+}
+
+section.subdiv {
+    background-color: #fafafa;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.ans-cor {
+ color: green;
+}
+
+.ans-inc {
+ color: darkred;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  /* Set the fixed height of the footer here */
+  margin-top: 2em;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f8f8f8;
 }
