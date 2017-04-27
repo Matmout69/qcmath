@@ -52,4 +52,3 @@ if (isset($_GET['page'])) {
     require 'controller/homeC.php';
 }
 
-?>

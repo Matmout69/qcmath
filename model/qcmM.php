@@ -70,4 +70,3 @@ function getQuestions($filter) {
     return $questions;
 }
 
-?>

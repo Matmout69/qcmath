@@ -52,7 +52,6 @@
                     <li class="<?php if($pgname == 'addsession') echo 'active'; ?>"><a href="index.php?page=addsession">Nouvelle Session</a></li>
                     <li class="<?php if($pgname == 'testmath') echo 'active'; ?>"><a href="index.php?page=testmath">Testeur LATEX</a></li>
                 </ul>
-                </ul>
             </div><!--/.nav-collapse -->
 
         </div><!--/.container-fluid -->

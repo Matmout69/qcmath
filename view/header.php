@@ -7,7 +7,7 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
 
     <title><?php echo $pageName; ?> - Questions de maths</title>
 
@@ -23,7 +23,7 @@
     ?>
 
       <!-- Bootstrap core CSS -->
-      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
       <!-- MathJax -->
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});

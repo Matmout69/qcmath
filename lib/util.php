@@ -11,7 +11,9 @@ function makeTable($data, $indexName, $delName, $actionName) {
         echo '<form action="'.$actionName.'" method="post">';
         echo '<input type="hidden" name="'.$delName.'" value="'.$value.'"/>';
         echo '</td>';
-        echo '<td class="col-md-4"><input type="submit" class="btn btn-danger" value="Supprimer"/></td>';
+        if ($delName != null) {
+            echo '<td class="col-md-4"><input type="submit" class="btn btn-danger" value="Supprimer"/></td>';
+        }
         echo '</form>';
         echo '</tr>';
     }

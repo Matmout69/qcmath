@@ -16,4 +16,4 @@
 - ~~connecter le label de case à cocher ds création qu~~
 - ~~ajout code bip insertion etu~~
 - insertion etu en vrac ?
-- Support LATEX
+- ~~Support LATEX~~

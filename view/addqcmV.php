@@ -13,7 +13,7 @@
             </div>
             <div class="form-group">
                 <div class="form-group">
-                <label>Nombre d'items à ajouter :</label>
+                <label for="itemnb">Nombre d'items à ajouter :</label>
                 <input type="text" size="1" value="2" id="itemnb" />
                 </div>
                 <label>Chapitre de la question : </label>
@@ -37,35 +37,35 @@
             container.removeChild(container.lastChild);
         }
         if (number < 1) {return}
-        for (i=0;i<number;i++){
-            elem = document.createElement('div')
-            elem.className = "form-group"
-            itemDiv = container.appendChild(elem)
+        for (var i=0;i<number;i++){
+            var elem = document.createElement('div');
+            elem.className = "form-group";
+            var itemDiv = container.appendChild(elem);
             itemDiv.appendChild(document.createTextNode("Item n° " + (i+1) + " : "));
-            lbl = document.createElement('label')
-            lbl.innerHTML = '&nbsp;Cette réponse est vraie'
-            lbl.setAttribute('for', 'cb' + (i+1))
-            cb = document.createElement('input')
-            cb.setAttribute('type', 'checkbox')
-            cb.setAttribute('name', 'cb[]')
-            cb.setAttribute('value', i)
-            cb.setAttribute('id', 'cb' + (i+1))
-            lbcb = document.createElement('div')
-            lbcb.className = "form-group"
-            lbcb.appendChild(cb)
-            lbcb.appendChild(lbl)
-            itemDiv.appendChild(lbcb)
+            var lbl = document.createElement('label');
+            lbl.innerHTML = '&nbsp;Cette réponse est vraie';
+            lbl.setAttribute('for', 'cb' + (i+1));
+            var cb = document.createElement('input');
+            cb.setAttribute('type', 'checkbox');
+            cb.setAttribute('name', 'cb[]');
+            cb.setAttribute('value', i.toString());
+            cb.setAttribute('id', 'cb' + (i+1));
+            var lbcb = document.createElement('div');
+            lbcb.className = "form-group";
+            lbcb.appendChild(cb);
+            lbcb.appendChild(lbl);
+            itemDiv.appendChild(lbcb);
             var input = document.createElement("input");
-            input.type = "text"
-            input.setAttribute('class', 'form-control')
-            input.name = "item[]"
+            input.type = "text";
+            input.setAttribute('class', 'form-control');
+            input.name = "item[]";
             itemDiv.appendChild(input);
-            container.appendChild(itemDiv)
+            container.appendChild(itemDiv);
         }
-        sbm = document.createElement('input')
-        sbm.setAttribute('type', 'submit')
-        sbm.setAttribute('class', 'btn btn-primary')
-        sbm.setAttribute('value', 'Ajouter la question')
-        container.appendChild(sbm)
+        var sbm = document.createElement('input');
+        sbm.setAttribute('type', 'submit');
+        sbm.setAttribute('class', 'btn btn-primary');
+        sbm.setAttribute('value', 'Ajouter la question');
+        container.appendChild(sbm);
     }
 </script>
